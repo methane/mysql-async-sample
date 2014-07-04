@@ -1,0 +1,5 @@
+```
+pip install -r requirements.txt
+uwsgi uwsgi.ini
+wrk -c10 -d10 http://127.0.0.1:8080/
+```
